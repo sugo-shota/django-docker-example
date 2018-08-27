@@ -14,7 +14,7 @@
     - 仮想環境（virtualenv）ではパッケージがインストールされているため、処理が行われる
 
 - pipenv shell
-    - rails で言うところの `rails c` した状態のshellをイメージ
+    - rails で言うところの `rails c` した状態のshellをイメージ
 
 
 
