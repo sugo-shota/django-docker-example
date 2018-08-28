@@ -13,8 +13,29 @@
 - pipenv run python test.py
     - 仮想環境（virtualenv）ではパッケージがインストールされているため、処理が行われる
 
+- pipenv run [hogehoge]
+    - 仮想環境でコマンドを実行
+
 - pipenv shell
-    - rails で言うところの `rails c` した状態のshellをイメージ
+    - 仮想環境のshellを立ち上げる
+    - たとえばdjangoをインストールしていた場合、scaffoldみたいなコマンドを打つのはここ
+    - rails で言うところの `rails c` した状態のshellをイメージ？
 
 
+# 参考になったサイト群
 
+- pyenv
+    - https://qiita.com/1000ch/items/93841f76ea52551b6a97
+
+- pipenv
+    - https://pipenv-ja.readthedocs.io/ja/translate-ja/
+    - https://wonderwall.hatenablog.com/entry/2018/03/04/220000
+    - https://qiita.com/subarunari/items/dcbdad68ba1809b721b9
+    - https://qiita.com/nkt_dev/items/4feb760068de5c2ecbc6
+    - https://qiita.com/nkt_dev/items/4feb760068de5c2ecbc6
+
+- コンテナ
+    - https://qiita.com/pottava/items/970d7b5cda565b995fe7
+
+- もう少し真面目にやるとこの辺も必要
+    - https://shotat.hateblo.jp/entry/2016/12/01/221631
