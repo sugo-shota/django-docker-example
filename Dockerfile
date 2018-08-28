@@ -1,8 +1,8 @@
 FROM python:3.7.0-alpine
 
-RUN mkdir /app
+RUN mkdir /application
 
-WORKDIR /app
+WORKDIR /application
 
 RUN pip install pipenv
 
